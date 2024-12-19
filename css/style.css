@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 0px;
+}
+
+.header-logo {
+    width: 200px;
+    height: auto;
+}
+
+.header-nav-list {
+    margin-top: 20px;
+    display: flex;
+}
+
+.header-nav-item {
+    list-style-type: none;
+}
+
+.header-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+.header-nav-item:first-child .header-link{
+    margin-left: 0;
+}
+
+
+#welcome {
+    width: 100%;
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-wrapper {
+    position: relative;
+}
+
+.welcome-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 349px;
+    left: 730px;
+    height: 190px;
+    width: 420px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8), 0%,
+     rgba(234, 156, 65, 0.8) 100%);
+
+}
+
+.welcome-description-container {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black; 
+    border-radius: 1px;
+}
+
+.welcome-title {
+    font-size: 36px;
+    font-family: 'Philosopher';
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 28px;
+}
+
+.welcome-text {
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 9px 28px;
+}
+
+#bakery-content {
+    width: 100%;
+    padding: 20px 0; 
+}
+
+.bakery-wrapper {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bakery-cards {
+    display: flex;
+}
+
+.bakery-content-icon {
+    margin-right: 76px;
+}
+
+.bakery-content-icon:last-child{
+    margin-right: 0px;
+}
+
+.bakery-text {
+    width: 1000px;
+    text-align: center;
+}
+
+.bakery-text > * {
+    margin-top: 20px;
+}
+
+.bakery-text span {
+    color: #F15B40;
+}
+
+.bakery-text h2 {
+    font-size: 96px;
+    font-family: "Philosopher";
+    font-weight: 400;
+}
+
+.bakery-text p {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.bakery-text h3 {
+    font-size: 36px;
+    font-family: "Philosopher";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#yandex-map {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 1024px;
+    border-top: 1px solid #999999;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:#000000;
+    margin-right: 100px;
+}
+
+.footer-nav-item:last-child .footer-link{
+    margin-right: 0px;
+}
+
+.footer-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 400;
+}
